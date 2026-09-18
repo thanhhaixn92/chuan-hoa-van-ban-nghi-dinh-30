@@ -1,0 +1,14 @@
+schema_version: "1.0"
+id: ADMIN-ND30-OUTGOING-WORKFLOW
+selector:
+  regimes:
+    - administrative
+  domains:
+    - document_workflow
+includes:
+  sources:
+    - VN-STATE-ND30-2020
+  rule_ids:
+    - ND30.ART14.OUTGOING_WORKFLOW_ORDER
+overlay_policy:
+  organization_profile: forbidden
