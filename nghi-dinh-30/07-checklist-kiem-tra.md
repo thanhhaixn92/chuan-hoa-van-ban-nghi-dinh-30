@@ -1,65 +1,78 @@
 # 07. Checklist kiểm tra văn bản trước khi ban hành
 
-Sử dụng checklist này trước khi trình ký hoặc trước khi phát hành văn bản để bảo đảm tuân thủ Nghị định 30/2020/NĐ-CP.
+> **Trạng thái GĐ1:** Checklist đã được sửa các lỗi P0/P1. Đây là lớp hỗ trợ thực hành, không phải tuyên bố rằng mọi mục đều áp dụng cho mọi văn bản. Về lâu dài checklist này phải được sinh từ Canonical Rules đã `verified`.
 
-## A. Kiểm tra thể thức (thành phần bắt buộc)
+## A. Xác định phạm vi trước khi kiểm tra
 
-- [ ] Có đầy đủ Quốc hiệu và Tiêu ngữ
-- [ ] Tên cơ quan, tổ chức ban hành đúng và đầy đủ
-- [ ] Số, ký hiệu văn bản đúng quy định
-- [ ] Địa danh và thời gian ban hành đầy đủ, đúng định dạng
-- [ ] Tên loại văn bản đúng (thuộc 29 loại quy định)
-- [ ] Trích yếu nội dung ngắn gọn, phản ánh đúng nội dung chính
-- [ ] Có phần nội dung văn bản
-- [ ] Có chức vụ, họ tên người ký
-- [ ] Có chỗ đóng dấu / ký số của cơ quan
-- [ ] Có phần Nơi nhận
+- [ ] Đã xác định đúng **chủ thể ban hành** và văn bản có thuộc phạm vi áp dụng trực tiếp của Nghị định 30 hay không.
+- [ ] Đã xác định đúng **regime**: văn bản hành chính / văn bản quy phạm pháp luật / văn bản chuyên ngành / hệ khác.
+- [ ] Đã xác định đúng **loại văn bản** và ngày ban hành để chọn rule có hiệu lực phù hợp.
 
-## B. Kiểm tra kỹ thuật trình bày
+Nếu chưa xác định chắc regime, không tự động sửa cấu trúc văn bản.
 
-- [ ] Khổ giấy A4, trình bày theo chiều dài
-- [ ] Định lề đúng quy định (trên/dưới 20–25mm, trái 30–35mm, phải 15–20mm)
-- [ ] Phông chữ Times New Roman, Unicode
-- [ ] Cỡ chữ và kiểu chữ các thành phần đúng quy định
-- [ ] Căn cứ ban hành (nếu có) viết chữ nghiêng, kết thúc đúng dấu
-- [ ] Số trang đúng quy định (không hiển thị trang 1)
+## B. Kiểm tra thành phần thể thức
 
-## C. Kiểm tra bố cục nội dung
+- [ ] Quốc hiệu và Tiêu ngữ đúng quy định.
+- [ ] Tên cơ quan, tổ chức ban hành đúng.
+- [ ] Số, ký hiệu đúng trường hợp áp dụng.
+- [ ] Địa danh và thời gian ban hành đúng nội dung và định dạng.
+- [ ] Tên loại và trích yếu được xử lý đúng theo loại văn bản.
+- [ ] **Nếu là công văn:** không tạo heading `CÔNG VĂN`; kiểm tra trích yếu ở ô 5b sau `V/v`.
+- [ ] Có nội dung văn bản.
+- [ ] Quyền hạn/chức vụ, họ tên và chữ ký người có thẩm quyền đúng trường hợp.
+- [ ] Dấu/chữ ký số của cơ quan, tổ chức được xử lý đúng giai đoạn phát hành.
+- [ ] `Kính gửi`/`Nơi nhận` được trình bày đúng trường hợp áp dụng.
 
-- [ ] Bố cục logic, phù hợp với loại văn bản
-- [ ] Các cấp độ (Phần/Chương/Mục/Điều...) có tiêu đề khi bắt buộc
-- [ ] Cách đánh số và trình bày các cấp độ đúng quy định
-- [ ] Ngôn ngữ rõ ràng, chính xác, ngắn gọn
-- [ ] Không có lỗi chính tả, ngữ pháp nghiêm trọng
+## C. Kiểm tra kỹ thuật trình bày
 
-## D. Kiểm tra nội dung pháp lý & thẩm quyền
+- [ ] Khổ A4 và hướng trang đúng; trường hợp bảng/biểu lớn được xử lý theo ngoại lệ của Phụ lục I.
+- [ ] Lề trang: trên 20–25 mm; dưới 20–25 mm; trái 30–35 mm; phải 15–20 mm.
+- [ ] Phông Times New Roman, Unicode theo TCVN 6909:2001, màu đen.
+- [ ] Địa danh và thời gian: chữ nghiêng, cỡ 13–14.
+- [ ] Văn bản có tên loại: trích yếu cỡ 13–14, đứng, đậm.
+- [ ] Công văn: trích yếu cỡ 12–13, đứng.
+- [ ] Nội dung: cỡ 13–14; canh đều; đầu dòng 1 cm hoặc 1,27 cm.
+- [ ] Khoảng cách đoạn tối thiểu 6 pt.
+- [ ] Khoảng cách dòng từ dòng đơn đến tối đa 1,5 lines.
+- [ ] Số trang đúng quy định; trang đầu không hiển thị số.
 
-- [ ] Nội dung phù hợp với thẩm quyền của người ký
-- [ ] Căn cứ pháp lý đầy đủ và chính xác (nếu có)
-- [ ] Không trái với quy định pháp luật hiện hành
-- [ ] Số liệu, ngày tháng, tên tổ chức/cá nhân chính xác
+## D. Kiểm tra bố cục và nội dung
 
-## E. Kiểm tra trước khi phát hành (Văn thư)
+- [ ] Nếu dùng Phần/Chương/Mục/Tiểu mục/Điều thì các cấp này có tiêu đề.
+- [ ] Số thứ tự và cách trình bày Phần/Chương/Mục/Tiểu mục/Điều/Khoản/Điểm đúng quy định.
+- [ ] Căn cứ ban hành, nếu có, đúng nội dung và kỹ thuật trình bày.
+- [ ] Nội dung thuộc thẩm quyền và đã được người có trách nhiệm kiểm tra.
+- [ ] Số liệu, tên cơ quan, tổ chức, cá nhân, ngày tháng được kiểm chứng.
 
-- [ ] Đã được người có thẩm quyền ký
-- [ ] Đã đóng dấu / ký số đúng quy định
-- [ ] Đã cấp số và ghi thời gian ban hành
-- [ ] Đã đăng ký văn bản đi
-- [ ] Số lượng bản phát hành đủ theo nơi nhận
-- [ ] Đã lưu bản chính / bản gốc theo quy định
+Các câu hỏi về **thẩm quyền, căn cứ pháp lý, nội dung pháp lý** phải được coi là `NEEDS_REVIEW` hoặc kiểm tra chuyên môn; không nên auto-fix bằng AI.
 
-## F. Kiểm tra đặc biệt (nếu có)
+## E. Kiểm tra trước và sau ký
 
-- [ ] Văn bản mật: có dấu chỉ độ mật đúng cấp độ
-- [ ] Văn bản khẩn: có dấu chỉ mức độ khẩn
-- [ ] Có phụ lục: phụ lục được đánh số và có thông tin chỉ dẫn đúng
-- [ ] Văn bản điện tử: đã ký số đúng và đầy đủ
+### Trước ký
+
+- [ ] Người đứng đầu đơn vị soạn thảo đã kiểm tra nội dung.
+- [ ] Người được giao trách nhiệm đã kiểm tra thể thức, kỹ thuật trình bày.
+- [ ] Bản thảo đã được người có thẩm quyền ký văn bản duyệt.
+
+### Sau ký — văn bản đi
+
+Kiểm tra theo đúng thứ tự Điều 14:
+
+- [ ] 1. Đã cấp số, thời gian ban hành.
+- [ ] 2. Đã đăng ký văn bản đi.
+- [ ] 3. Đã nhân bản/đóng dấu theo trường hợp văn bản giấy hoặc ký số của cơ quan, tổ chức đối với văn bản điện tử.
+- [ ] 4. Đã phát hành và theo dõi việc chuyển phát.
+- [ ] 5. Đã lưu văn bản đi.
+
+## F. Trường hợp điện tử, mật, khẩn hoặc có phụ lục
+
+- [ ] Văn bản điện tử có chữ ký số của **người có thẩm quyền**.
+- [ ] Văn bản điện tử có chữ ký số của **cơ quan, tổ chức** theo quy định.
+- [ ] Văn bản mật/khẩn có dấu chỉ phù hợp và tuân thủ pháp luật chuyên ngành có liên quan.
+- [ ] Phụ lục được trình bày, đánh số và liên kết đúng trường hợp.
+- [ ] Nếu tài liệu đã ký số/protected, chỉ audit; không tự động sửa làm ảnh hưởng tính toàn vẹn.
 
 ---
 
-**Hướng dẫn sử dụng**:
-- Người soạn thảo tự kiểm theo mục A, B, C, D.
-- Người kiểm tra / Văn thư kiểm theo mục E, F.
-- Đánh dấu ✓ vào các mục đã đạt.
-
-*Checklist này nên được tùy chỉnh thêm theo quy chế nội bộ của từng cơ quan, tổ chức.*
+**Nguồn chuẩn:** Điều 5, Điều 8–14 và Phụ lục I–III Nghị định 30/2020/NĐ-CP.  
+**Kiến trúc v2:** kết quả kiểm tra phải phân biệt `PASS`, `FAIL`, `NOT_APPLICABLE`, `NOT_EVALUATED`, `NEEDS_REVIEW`.
