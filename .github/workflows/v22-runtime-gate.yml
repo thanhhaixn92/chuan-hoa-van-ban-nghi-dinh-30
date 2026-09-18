@@ -38,7 +38,9 @@ jobs:
 
       - name: Generate deterministic DOCX fixtures
         working-directory: v22-runtime
-        run: python scripts/v22/generate_docx_fixtures.py
+        run: |
+          python scripts/v22/generate_docx_fixtures.py
+          python scripts/v22/normalize_generated_fixtures.py
 
       - name: Static V22 audit
         working-directory: v22-runtime
