@@ -1,0 +1,15 @@
+schema_version: "1.0"
+id: ADMIN-ND30-ELECTRONIC-SIGNATURE
+selector:
+  regimes:
+    - administrative
+  domains:
+    - electronic_signature
+includes:
+  sources:
+    - VN-STATE-ND30-2020
+  rule_ids:
+    - ND30.ART5.1.ELECTRONIC.AUTHORIZED_SIGNER_SIGNATURE
+    - ND30.ART5.1.ELECTRONIC.ORGANIZATION_SIGNATURE
+overlay_policy:
+  organization_profile: forbidden
