@@ -11,7 +11,7 @@ sources:
       - document_structure
       - document_workflow
       - records_management
-      - electronic_document_management
+      - electronic_transaction
     implementation_status: core
 
   - id: VN-STATE-LAW20-2023
