@@ -1,72 +1,63 @@
 # 04. Bố cục nội dung văn bản
 
-Theo Phụ lục I Nghị định 30/2020/NĐ-CP
+> **Trạng thái GĐ1:** Đã tách quy định bắt buộc khỏi gợi ý thực hành và loại bỏ nhận định lịch sử không có nguồn trực tiếp trong Nghị định 30/2020/NĐ-CP.
 
-## 1. Nguyên tắc chung
+## 1. Quy định về bố cục
 
-Nghị định 30 **không quy định cứng** bố cục chi tiết cho từng loại văn bản. Thay vào đó áp dụng nguyên tắc linh hoạt:
+Tùy theo tên loại và nội dung, văn bản:
 
-> “Tuỳ theo tên loại và nội dung, văn bản có thể có phần căn cứ pháp lý để ban hành, phần mở đầu và có thể được bố cục theo phần, chương, mục, tiểu mục, điều, khoản, điểm hoặc được phân chia thành các phần, mục từ lớn đến nhỏ theo một trình tự nhất định.”
+- có thể có phần căn cứ pháp lý để ban hành;
+- có thể có phần mở đầu;
+- có thể được bố cục theo **phần, chương, mục, tiểu mục, điều, khoản, điểm**; hoặc
+- được phân chia thành các phần, mục từ lớn đến nhỏ theo một trình tự nhất định.
 
-## 2. Các cấp độ bố cục
+Đây là quy định tại Phụ lục I; Nghị định không ấn định một bố cục chi tiết duy nhất cho mọi loại văn bản.
 
-Có thể sử dụng các cấp sau (từ lớn đến nhỏ):
+## 2. Yêu cầu về tiêu đề
 
-1. **Phần**
-2. **Chương**
-3. **Mục**
-4. **Tiểu mục** (mới bổ sung so với quy định trước đây)
-5. **Điều**
-6. **Khoản**
-7. **Điểm**
+Nếu văn bản được bố cục theo **Phần, Chương, Mục, Tiểu mục, Điều** thì các cấp này **phải có tiêu đề**.
 
-## 3. Cách trình bày từng cấp độ
+Tiêu đề là cụm từ chỉ nội dung chính của phần, chương, mục, tiểu mục hoặc điều.
+
+## 3. Cách trình bày các cấp
 
 ### Phần / Chương
 
-- Từ “Phần” hoặc “Chương” + số thứ tự (chữ số **La Mã**) trên một dòng riêng.
-- Canh giữa, chữ in thường, cỡ 13–14, đứng, **đậm**.
-- Tiêu đề ngay bên dưới: chữ in hoa, cỡ 13–14, đứng, đậm, canh giữa.
+- Từ `Phần` hoặc `Chương` và số thứ tự: một dòng riêng, canh giữa, chữ in thường, cỡ 13–14, đứng, đậm.
+- Số thứ tự: chữ số La Mã.
+- Tiêu đề: dòng ngay dưới, canh giữa, chữ in hoa, cỡ 13–14, đứng, đậm.
 
 ### Mục / Tiểu mục
 
-- Từ “Mục” hoặc “Tiểu mục” + số thứ tự (chữ số **Ả Rập**).
-- Canh giữa, chữ in thường, cỡ 13–14, đứng, đậm.
-- Tiêu đề ngay dưới: chữ in hoa, cỡ 13–14, đứng, đậm.
+- Từ `Mục` hoặc `Tiểu mục` và số thứ tự: một dòng riêng, canh giữa, chữ in thường, cỡ 13–14, đứng, đậm.
+- Số thứ tự: chữ số Ả Rập.
+- Tiêu đề: dòng ngay dưới, canh giữa, chữ in hoa, cỡ 13–14, đứng, đậm.
 
 ### Điều
 
-- Lùi đầu dòng 1 cm hoặc 1,27 cm.
-- Số thứ tự Ả Rập + dấu chấm (.).
-- Chữ đứng, đậm, cỡ bằng phần lời văn.
+- Từ `Điều`, số thứ tự và tiêu đề: chữ in thường, lùi đầu dòng 1 cm hoặc 1,27 cm.
+- Số thứ tự dùng chữ số Ả Rập, sau số có dấu chấm.
+- Cỡ chữ bằng phần lời văn, kiểu đứng, đậm.
 
 ### Khoản
 
-- Số thứ tự Ả Rập + dấu chấm (.).
-- Nếu có tiêu đề: trình bày trên dòng riêng, chữ đứng, đậm.
+- Số thứ tự dùng chữ số Ả Rập, sau số có dấu chấm, cỡ chữ bằng phần lời văn, kiểu đứng.
+- Nếu khoản có tiêu đề thì số thứ tự và tiêu đề trình bày trên một dòng riêng, chữ in thường, kiểu đứng, đậm.
 
 ### Điểm
 
-- Chữ cái tiếng Việt theo bảng chữ cái (a, b, c…) + dấu đóng ngoặc đơn.
-- Chữ in thường, đứng.
+- Dùng chữ cái tiếng Việt theo thứ tự bảng chữ cái, sau chữ cái có dấu đóng ngoặc đơn.
+- Chữ in thường, cỡ bằng phần lời văn, kiểu đứng.
 
-## 4. Gợi ý bố cục theo nhóm loại văn bản
+## 4. Gợi ý thực hành — không phải quy định bắt buộc của Nghị định
 
-| Nhóm văn bản                          | Bố cục thường dùng                          |
-|---------------------------------------|---------------------------------------------|
-| Nghị quyết (cá biệt), Quyết định (cá biệt) | Điều → Khoản → Điểm                        |
-| Quy chế, Quy định (kèm theo Quyết định) | Chương → Mục → Điều → Khoản → Điểm         |
-| Chỉ thị                               | Khoản → Điểm                                |
-| Công văn, Thông báo, Tờ trình, Báo cáo, Kế hoạch | Phần / Mục hoặc Khoản → Điểm + phần mở đầu |
-| Biên bản                              | Theo trình tự sự kiện (thời gian, thành phần, nội dung, kết luận) |
-| Giấy mời, Giấy giới thiệu, Phiếu…     | Ngắn gọn theo mẫu cố định                   |
+Các ví dụ như “Quyết định thường dùng Điều → Khoản → Điểm” hoặc “Kế hoạch thường chia thành các mục lớn” chỉ nên xem là **gợi ý biên tập** theo tính chất tài liệu, không phải classification bắt buộc của Nghị định 30.
 
-## 5. Yêu cầu đối với tiêu đề
+Khi xây template hoặc AI soạn thảo, phải tách:
 
-Đối với các hình thức văn bản được bố cục theo **Phần, Chương, Mục, Tiểu mục, Điều** thì **bắt buộc phải có tiêu đề**.
-
-Tiêu đề là cụm từ chỉ nội dung chính của cấp độ đó.
+- `normative rule`: quy định bắt buộc từ Nghị định/Phụ lục;
+- `recommendation`: bố cục gợi ý cho thuận tiện sử dụng.
 
 ---
 
-*Tham khảo: Mục về nội dung văn bản trong Phụ lục I Nghị định 30/2020/NĐ-CP*
+**Nguồn chuẩn:** Phụ lục I, phần quy định về nội dung văn bản, Nghị định 30/2020/NĐ-CP.
