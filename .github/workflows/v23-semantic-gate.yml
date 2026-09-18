@@ -40,6 +40,10 @@ jobs:
         working-directory: v22-runtime
         run: python scripts/v23/bootstrap_v23_payload.py
 
+      - name: Apply targeted V23 runtime corrections
+        working-directory: v22-runtime
+        run: python scripts/v23/apply_v23_runtime_corrections.py
+
       - name: Generate deterministic fixtures
         working-directory: v22-runtime
         run: |
