@@ -1,0 +1,42 @@
+schema_version: '1.0'
+id: VN-STATE-ND30-2020
+identity:
+  number: 30/2020/NĐ-CP
+  title: Về công tác văn thư
+  issuer: Chính phủ
+  instrument_type: decree
+  issued_date: '2020-03-05'
+source_role: normative_original
+legal_status:
+  effective_from: '2020-03-05'
+  effective_to: null
+  overall_status: active
+  verified_at: '2026-09-18'
+scope:
+  regimes:
+  - administrative
+  domains:
+  - document_format
+  - document_structure
+  - document_workflow
+  - records_management
+  - electronic_transaction
+  - electronic_signature
+  scope_level: nationwide_state
+official_sources:
+- provider: Cơ sở dữ liệu quốc gia về văn bản pháp luật
+  url: https://vbpl.vn/bonoivu/Pages/vbpq-van-ban-goc.aspx?ItemID=141142
+  verified: true
+- provider: Cổng Thông tin điện tử Chính phủ
+  url: https://xaydungchinhsach.chinhphu.vn/quy-dinh-ve-cong-tac-van-thu-quan-ly-van-ban-the-thuc-ky-thuat-trinh-bay-van-ban-ban-sao-van-ban-viet-hoa-mau-trinh-bay-van-ban-hanh-chinh-119251023153016706.htm
+  verified: true
+implementation:
+  status: core
+  rules_mapped: false
+verification:
+  metadata_checked: true
+  legal_status_checked: true
+  source_content_cross_checked: false
+extensions:
+  giai_doan: GĐ1
+  note: Đã đối chiếu các Điều 1-8, 10-14 và các quy tắc P0/P1 tại Phụ lục I, III; chưa hoàn tất đối chiếu toàn văn 38 điều + 6 phụ lục.
