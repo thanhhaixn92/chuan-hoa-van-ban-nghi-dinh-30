@@ -1,0 +1,74 @@
+name: V22 Runtime Gate
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - feature/gd3-v22-runtime-gate
+
+permissions:
+  contents: read
+
+jobs:
+  v22-runtime:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET 10
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Show toolchain
+        working-directory: v22-runtime
+        run: |
+          dotnet --info
+          dotnet --list-sdks
+          python --version
+
+      - name: Generate deterministic DOCX fixtures
+        working-directory: v22-runtime
+        run: python scripts/v22/generate_docx_fixtures.py
+
+      - name: Static V22 audit
+        working-directory: v22-runtime
+        run: python scripts/v22/audit_v22_static.py
+
+      - name: Restore
+        working-directory: v22-runtime
+        run: dotnet restore DocumentEngine.slnx
+
+      - name: Build
+        working-directory: v22-runtime
+        run: dotnet build DocumentEngine.slnx --no-restore -c Release
+
+      - name: Test
+        working-directory: v22-runtime
+        run: >-
+          dotnet test DocumentEngine.slnx
+          --no-build
+          -c Release
+          --logger "trx;LogFileName=v22-tests.trx"
+          --logger "console;verbosity=detailed"
+
+      - name: Final static regression
+        working-directory: v22-runtime
+        run: python scripts/v22/audit_v22_static.py
+
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v22-runtime-results
+          path: |
+            v22-runtime/**/TestResults/**
+          if-no-files-found: warn
