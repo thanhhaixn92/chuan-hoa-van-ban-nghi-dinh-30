@@ -5,6 +5,7 @@ baseline_commit: "6f5a5f1d38a18b6117d8054134e76e8df472d10a"
 sources:
   - id: VN-STATE-ND30-2020
     title: "Nghị định 30/2020/NĐ-CP về công tác văn thư"
+    manifest: "sources/manifests/VN-STATE-ND30-2020.yaml"
     regime: administrative
     domains:
       - document_format
@@ -12,6 +13,7 @@ sources:
       - document_workflow
       - records_management
       - electronic_transaction
+      - electronic_signature
     implementation_status: core
 
   - id: VN-STATE-LAW20-2023
