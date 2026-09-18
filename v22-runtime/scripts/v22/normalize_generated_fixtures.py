@@ -35,6 +35,14 @@ def fix_page_numbering(xml: str) -> str:
         raise SystemExit("expected page-numbering section pattern not found")
     return xml.replace(old, new, 1)
 
+def fix_header_footer_section(xml: str) -> str:
+    old = '<w:titlePg/><w:pgSz w:w="11906" w:h="16838"/><w:pgMar w:top="1134" w:right="850" w:bottom="1134" w:left="1701"/>'
+    new = '<w:pgSz w:w="11906" w:h="16838"/><w:pgMar w:top="1134" w:right="850" w:bottom="1134" w:left="1701"/><w:titlePg/>'
+    if old not in xml:
+        raise SystemExit("expected header-footer section pattern not found")
+    return xml.replace(old, new, 1)
+
 rewrite(ROOT / "07-table.docx", fix_table)
+rewrite(ROOT / "08-header-footer.docx", fix_header_footer_section)
 rewrite(ROOT / "09-page-numbering.docx", fix_page_numbering)
-print("normalized 07-table.docx and 09-page-numbering.docx for OpenXml validation")
+print("normalized table/header-footer/page-numbering fixtures for OpenXml validation")
