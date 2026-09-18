@@ -4,21 +4,39 @@
 
 Chuyển repository từ bộ Markdown hướng dẫn sang kiến trúc v2 mà không làm mất lịch sử và không sửa nội dung cũ trước khi rule/source model ổn định.
 
-## GĐ0 — Foundation
+## GĐ0 — Foundation — PASS
 
-- Giữ nguyên toàn bộ `nghi-dinh-30/` và placeholder hiện có.
+- Giữ nguyên toàn bộ `nghi-dinh-30/` và placeholder hiện có trong thời điểm xây foundation.
 - Bổ sung Architecture, Source Model, Rule Model, Document Model, Applicability, Validation và Fix Safety.
 - Bổ sung JSON Schema và Source Registry.
 - Chưa tạo production DOCX parser/formatter.
 
-## GĐ1 — Audit và migrate 7 file Nghị định 30
+GĐ0 đã được merge vào `main` tại commit `7e6e020e8492a27958fa4a4abb666d3fab119a68`.
+
+## GĐ1 — Audit và migrate 7 file Nghị định 30 — IN PROGRESS
 
 1. Đối chiếu toàn bộ statement với NĐ30 + Phụ lục I–VI.
 2. Sửa P0/P1 trước.
 3. Tách normative statement khỏi commentary/recommendation.
 4. Chuyển rule machine-readable sang `rules/`.
-5. Chuyển guide cũ sang `docs/commentary/` hoặc generated docs.
+5. Chuyển guide cũ sang `docs/commentary/` hoặc generated docs khi rule coverage đủ.
 6. `07-checklist-kiem-tra.md` về lâu dài phải được sinh từ verified rules, không maintain thủ công.
+
+### Checkpoint GĐ1.1
+
+Đã thực hiện:
+
+- sửa các lỗi P0/P1 đã nhận diện trong cả 7 guide;
+- bổ sung source manifest cho NĐ30;
+- tạo 10 Canonical Rules đầu tiên cho Điều 5, Điều 14, Phụ lục I và Phụ lục III;
+- thêm fixture expected behavior cho các lỗi đã sửa;
+- lập `GĐ1-AUDIT.md`.
+
+Chưa thực hiện:
+
+- full mapping 38 điều + 6 phụ lục;
+- generated docs hoàn toàn từ rules;
+- production validator/DOCX engine.
 
 ## Mapping dự kiến
 
