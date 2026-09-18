@@ -1,0 +1,95 @@
+# GĐ1 fixtures — expected behavior
+
+cases:
+  - id: ND30-GD1-001
+    description: Địa danh và thời gian không nghiêng
+    context:
+      regime: administrative
+    rule_id: ND30.PL1.I.II.4.C.PLACE_DATE_ITALIC
+    actual: false
+    expected:
+      status: FAIL
+      severity: LEGAL_ERROR
+      autofix: SAFE
+
+  - id: ND30-GD1-002
+    description: Trích yếu văn bản có tên loại không đậm
+    context:
+      regime: administrative
+      document:
+        presentation:
+          has_displayed_type_name: true
+    rule_id: ND30.PL1.I.II.5.A.SUBJECT_BOLD
+    actual: false
+    expected:
+      status: FAIL
+      severity: LEGAL_ERROR
+
+  - id: ND30-GD1-003
+    description: Công văn dùng cỡ chữ trích yếu 14
+    context:
+      regime: administrative
+      document:
+        type: official_letter
+    rule_id: ND30.PL1.I.II.5.B.OFFICIAL_LETTER_SUBJECT_FONT_SIZE
+    actual: 14
+    expected:
+      status: FAIL
+      severity: LEGAL_ERROR
+
+  - id: ND30-GD1-004
+    description: Nội dung giãn dòng 1.2
+    context:
+      regime: administrative
+    rule_id: ND30.PL1.I.II.6.E.BODY_LINE_SPACING
+    actual: 1.2
+    expected:
+      status: PASS
+
+  - id: ND30-GD1-005
+    description: Nội dung giãn dòng 1.8
+    context:
+      regime: administrative
+    rule_id: ND30.PL1.I.II.6.E.BODY_LINE_SPACING
+    actual: 1.8
+    expected:
+      status: FAIL
+      severity: LEGAL_ERROR
+
+  - id: ND30-GD1-006
+    description: Viết tắt Quy định sai thành QYĐ
+    context:
+      regime: administrative
+      document:
+        type: regulation
+    rule_id: ND30.PL3.I.ABBR.QUY_DINH
+    actual: QYĐ
+    expected:
+      status: FAIL
+      autofix: GUARDED
+
+  - id: ND30-GD1-007
+    description: Văn bản điện tử chỉ có chữ ký số người có thẩm quyền
+    context:
+      regime: administrative
+      medium: electronic
+    rule_id: ND30.ART5.1.ELECTRONIC.ORGANIZATION_SIGNATURE
+    actual: null
+    expected:
+      status: FAIL
+      autofix: PROHIBITED
+
+  - id: ND30-GD1-008
+    description: Trình tự văn bản đi đóng dấu trước cấp số
+    context:
+      regime: administrative
+    rule_id: ND30.ART14.OUTGOING_WORKFLOW_ORDER
+    actual:
+      - reproduce_and_stamp_or_apply_organization_signature
+      - assign_number_and_issue_time
+      - register_outgoing_document
+      - issue_and_track_delivery
+      - retain_outgoing_document
+    expected:
+      status: FAIL
+      autofix: PROHIBITED
